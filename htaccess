@@ -15,13 +15,13 @@ RewriteRule ^(.*)$ https://e-apartment\.ru/$1 [R=301,L]
 RewriteCond %{REQUEST_FILENAME} /robots.txt
 RewriteCond "%{DOCUMENT_ROOT}/robots_%{HTTP_HOST}.txt" -f
 RewriteRule ^(.*)$ robots_%{HTTP_HOST}.txt [NC,L]
-RewriteRule ^livingconditions$ page65097539.html [NC]
-RewriteRule ^livingconditions/$ page65097539.html [NC]
+RewriteRule ^page65097539.html$ page65097539.html [NC]
+RewriteRule ^page65097539.html/$ page65097539.html [NC]
 
-RewriteRule ^recommend-to-see$ page65098057.html [NC]
-RewriteRule ^recommend-to-see/$ page65098057.html [NC]
+RewriteRule ^page65098057.html$ page65098057.html [NC]
+RewriteRule ^page65098057.html/$ page65098057.html [NC]
 
-RewriteRule ^apartments$ page65099399.html [NC]
-RewriteRule ^apartments/$ page65099399.html [NC]
+RewriteRule ^page65099399.html$ page65099399.html [NC]
+RewriteRule ^page65099399.html/$ page65099399.html [NC]
 
 
