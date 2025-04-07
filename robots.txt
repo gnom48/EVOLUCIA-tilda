@@ -1,0 +1,18 @@
+User-Agent: *
+Disallow: /page65096427.html
+Disallow: /page65098025.html
+Disallow: /tilda/form*
+Disallow: /tilda/rec*
+Disallow: /tilda/click*
+Disallow: /tilda/scroll*
+Disallow: /tilda/popup*
+Disallow: /tilda/cart*
+Disallow: /tilda/product*
+Disallow: /tilda/event*
+Disallow: /*_escaped_fragment_*
+Disallow:
+
+
+Sitemap: https://e-apartment.ru/sitemap.xml
+Sitemap: https://e-apartment.ru/sitemap-store.xml
+Host: https://e-apartment.ru

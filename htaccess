@@ -1,0 +1,27 @@
+ErrorDocument 403 /404.html
+ErrorDocument 404 /404.html
+
+DirectoryIndex page65093143.html
+
+RewriteEngine On
+
+RewriteCond %{HTTP:X-Forwarded-Proto} =http
+RewriteRule ^(.*)$ https://e-apartment\.ru/$1 [R=301,L]
+
+RewriteCond %{HTTP:X-Forwarded-Proto} =https
+RewriteCond %{HTTP_HOST} ^www\.e-apartment.ru [NC]
+RewriteRule ^(.*)$ https://e-apartment\.ru/$1 [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} /robots.txt
+RewriteCond "%{DOCUMENT_ROOT}/robots_%{HTTP_HOST}.txt" -f
+RewriteRule ^(.*)$ robots_%{HTTP_HOST}.txt [NC,L]
+RewriteRule ^livingconditions$ page65097539.html [NC]
+RewriteRule ^livingconditions/$ page65097539.html [NC]
+
+RewriteRule ^recommend-to-see$ page65098057.html [NC]
+RewriteRule ^recommend-to-see/$ page65098057.html [NC]
+
+RewriteRule ^apartments$ page65099399.html [NC]
+RewriteRule ^apartments/$ page65099399.html [NC]
+
+
