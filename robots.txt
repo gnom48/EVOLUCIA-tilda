@@ -13,6 +13,6 @@ Disallow: /*_escaped_fragment_*
 Disallow:
 
 
-Sitemap: http://45.12.75.228/sitemap.xml
-Sitemap: http://45.12.75.228/sitemap-store.xml
-Host: http://45.12.75.228
+Sitemap: https://e-apartment.ru/sitemap.xml
+Sitemap: https://e-apartment.ru/sitemap-store.xml
+Host: https://e-apartment.ru
